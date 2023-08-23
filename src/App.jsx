@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import './App.css';
-import MainCard from "./MainCard.jsx";
+import InitialView from "./InitialView.jsx";
 
 function App() {
 
   return (
-      <MainCard />
+      <InitialView/>
   )
 }
 
