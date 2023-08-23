@@ -1,11 +1,13 @@
 import './App.css'
+import InitialTextBody from "./InitialTextBody.jsx";
 
 function InitialView() {
 
   return (
       <div className="cardRoot">
         <img src="../assets/images/illustration-sign-up-mobile.svg" />
-        <h1>Stay updated!</h1>
+
+        <InitialTextBody />
       </div>
   )
 }

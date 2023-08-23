@@ -1,5 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .cardRoot{
+    /*Colour variables*/
+    --tomato: hsl(4, 100%, 67%);
+    --darkSlateGrey: hsl(234, 29%, 20%);
+    --charcoalGrey: hsl(235, 18%, 26%);
+    --grey: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+
+    /*Styles for card root*/
     background-color: #FFFFFF;
+    color: var(--charcoalGrey);
     height: 100vh;
     width: 100vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.textBody{
+    margin-top: 34px;
+    padding-inline: 24px;
+}
+
+h1{
+    color: var(--darkSlateGrey);
+    font-size: 2.5em;
+    margin-bottom: 18px;
+}
+
+p{
+    line-height: 25px;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-image: url("../assets/images/icon-list.svg");
+    list-style-position: outside;
+    padding-left: 28px;
+    margin-top: 22px;
+
+}
+
+li{
+    padding-left: 10px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+li > span {
+    display: inline-block;
+    vertical-align: top;
 }
