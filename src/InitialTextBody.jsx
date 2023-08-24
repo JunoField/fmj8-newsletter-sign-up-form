@@ -1,7 +1,7 @@
 import './App.css'
 import SignUpForm from "./SignUpForm.jsx";
 
-function InitialTextBody() {
+function InitialTextBody({ setSubmitStatus }) {
 
   return (
       <div className="textBody">
@@ -12,7 +12,7 @@ function InitialTextBody() {
             <li><span>Measuring to ensure updates are a success</span></li>
             <li><span>And much more!</span></li>
         </ul>
-        <SignUpForm />
+        <SignUpForm setSubmitStatus={setSubmitStatus}/>
       </div>
   )
 }

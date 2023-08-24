@@ -1,13 +1,13 @@
 import './App.css'
 import InitialTextBody from "./InitialTextBody.jsx";
 
-function InitialView() {
+function InitialView({setSubmitStatus}) {
 
   return (
       <div className="cardRoot">
         <img src="../assets/images/illustration-sign-up-mobile.svg" />
 
-        <InitialTextBody />
+        <InitialTextBody setSubmitStatus={setSubmitStatus}/>
       </div>
   )
 }
