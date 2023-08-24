@@ -69,7 +69,7 @@ label {
     font-size: 0.72em;
 }
 
-form input {
+.input {
     height: 50px;
     border-radius: 5px;
     margin-block: 11px;
@@ -81,7 +81,7 @@ input[type=email] {
     font-size: 0.96em;
 }
 
-input[type=submit] {
+.btn {
     border: none;
     color: var(--white);
     background-color: var(--darkSlateGrey);

@@ -11,8 +11,8 @@ function SignUpForm({ setSubmitStatus }) {
   return (
       <form onSubmit={handleSubmit}>
         <label>Email address</label>
-        <input type="email" placeholder="email@company.com"/>
-        <input type="submit" value="Subscribe to monthly newsletter" />
+        <input type="email" placeholder="email@company.com" className="input"/>
+        <input type="submit" value="Subscribe to monthly newsletter" className="input btn" />
       </form>
   )
 }
