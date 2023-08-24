@@ -4,12 +4,12 @@ import InitialView from "./InitialView.jsx";
 import SuccessView from "./SuccessView.jsx";
 
 function App() {
-    const [submitStatus, setSubmitStatus] = useState(false);
+    const [email, setEmail] = useState("");
 
   return (
       <div>
       { 
-          submitStatus ? <SuccessView/> : <InitialView setSubmitStatus={setSubmitStatus}/> 
+          email != "" ? <SuccessView email={email} /> : <InitialView setEmail={setEmail}/> 
       }
       </div>
   )
