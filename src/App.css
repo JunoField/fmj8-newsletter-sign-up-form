@@ -15,17 +15,20 @@
     width: 100vw;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+
 }
 
 .textBody{
-    margin-top: 34px;
+    margin-top: 5px;
     padding-inline: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
     color: var(--darkSlateGrey);
     font-size: 2.5em;
-    margin-bottom: 18px;
+    margin-bottom: 3px;
 }
 
 p{
@@ -37,7 +40,7 @@ ul{
     list-style-image: url("../assets/images/icon-list.svg");
     list-style-position: outside;
     padding-left: 28px;
-    margin-top: 22px;
+    margin-top: 7px;
 
 }
 
@@ -56,6 +59,8 @@ form {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    margin-top: 12px;
+    justify-self: flex-end;
 }
 
 label {
@@ -67,7 +72,7 @@ label {
 form input {
     height: 50px;
     border-radius: 5px;
-    margin-block: 10px;
+    margin-block: 11px;
 }
 
 input[type=email] {
