@@ -47,7 +47,7 @@ p{
 
 ul{
     list-style-type: circle;
-    list-style-image: url("../assets/images/icon-list.svg");
+    list-style-image: url("/assets/images/icon-list.svg");
     list-style-position: outside;
     padding-left: 28px;
     margin-top: 7px;
