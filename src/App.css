@@ -19,11 +19,17 @@
     width: 100vw;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
 
 }
 
+.imgDesktop{
+    display: none;
+}
+
 .textBody{
-    margin-top: 5px;
+    margin-top: 8px;
     padding-inline: 24px;
     display: flex;
     flex-direction: column;
@@ -123,8 +129,6 @@ input[type=email] {
     padding-top: 149px;
     padding-inline: 24px;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
 }
 
 
@@ -155,7 +159,7 @@ input[type=email] {
 /*Screen size: Over 505px, larger than standard mobile*/
 @media only screen and (min-width: 505px){
     .cardRoot {
-        border-radius: 50px;
+        border-radius: 30px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -229,3 +233,37 @@ input[type=email] {
     }
 }
 
+/*Screen size: Over 930px, full desktop layout for initial view*/
+@media only screen and (min-width: 930px){
+    .initialCardRoot {
+        flex-direction: row;
+        max-width: 930px;
+        max-height: 641px;
+    }
+
+    .imgMobile {
+        display: none;
+    }
+
+    .imgDesktop {
+        display: unset;
+        margin-right: 24px;
+    }
+
+    .initialCardRoot h1{
+        margin-top: 84px;
+    }
+
+    ul{
+        margin-top: 5px;
+    }
+
+    li{
+        margin-bottom: 7px;
+    }
+
+    form {
+        margin-top: 12px;
+    }
+
+}
