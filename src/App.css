@@ -161,17 +161,53 @@ input[type=email] {
         left: 50%;
         transform: translate(-50%, -50%);
         margin: auto;
+        max-width: 505px;
+        box-sizing: border-box;
     }
 
+    .initialCardRoot {
+        text-align: center;
+        overflow: hidden;
+        max-height: 690px;
+    }
+
+    .textBody{
+        padding-inline: 64px;
+        text-align: left;
+    }
+
+    .imgMobile{
+        width: 100%;
+        margin-top: -250px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .initialCardRoot h1 {
+        font-size: 3.5em;
+    }
+
+
     .successCardRoot {
-        max-width: 505px;
         max-height: 520px;
         padding-inline: 63px;
         padding-top: 48px;
     }
 
+    input{
+        border: 2px solid red;
+    }
 
-    h1{
+    input[type=email]{
+        height: 56px;
+    }
+
+    .btn{
+        height: 56px;
+    }
+
+
+    .successCardRoot h1{
         font-size: 3.4em;
     }
 
