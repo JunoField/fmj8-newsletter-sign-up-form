@@ -151,3 +151,21 @@ input[type=email] {
 .successFooter .btn{
     height: 56px;
 }
+
+/*Screen size: Over 505px, larger than standard mobile*/
+@media only screen and (min-width: 505px){
+    .cardRoot {
+        border-radius: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+    }
+
+    .successCardRoot {
+        max-width: 505px;
+        max-height: 520px;
+    }
+}
+
