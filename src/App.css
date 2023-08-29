@@ -166,6 +166,30 @@ input[type=email] {
     .successCardRoot {
         max-width: 505px;
         max-height: 520px;
+        padding-inline: 63px;
+        padding-top: 48px;
+    }
+
+
+    h1{
+        font-size: 3.4em;
+    }
+
+    .successCardRoot h1{
+        line-height: 57px;
+    }
+
+    .successCardRoot img {
+        margin-bottom: 3px;
+    }
+
+
+    .successCardRoot p {
+        margin-top: 20px;
+    }
+
+    .successFooter {
+        margin-bottom: 53px;
     }
 }
 
