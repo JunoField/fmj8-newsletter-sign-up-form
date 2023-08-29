@@ -4,7 +4,7 @@ import InitialView from "./InitialView.jsx";
 import SuccessView from "./SuccessView.jsx";
 
 function App() {
-    const [email, setEmail] = useState("");
+    const [email, setEmail] = useState("foo@bar.net");
 
   return (
       <div>
