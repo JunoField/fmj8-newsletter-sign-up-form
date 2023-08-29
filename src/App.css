@@ -8,6 +8,10 @@
     --grey: hsl(231, 7%, 60%);
     --white: hsl(0, 0%, 100%);
 
+    /*Colours for gradient*/
+    --grad-orange: #FE693E;
+    --grad-pink: #E85F7D;
+
     /*Styles for card root*/
     background-color: var(--white);
     color: var(--charcoalGrey);
@@ -97,8 +101,8 @@ input[type=email] {
     border: 1px solid var(--grey);
     padding-left: 25px;
     font-size: 0.96em;
+    color: var(--darkSlateGrey);
 }
-
 
 
 .btn {
@@ -107,8 +111,12 @@ input[type=email] {
     background-color: var(--darkSlateGrey);
     font-weight: 700;
     font-size: 0.9em;
+    cursor: pointer;
 }
 
+.btn:hover{
+    background: linear-gradient(90deg, var(--grad-pink), var(--grad-orange));
+}
 
 
 .successCardRoot{
